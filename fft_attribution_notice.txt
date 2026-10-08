@@ -1,0 +1,5 @@
+Attribution and modification notice (October 8, 2026)
+
+The finite-producer logic in fft_candidate_search.py is a reconstructed and reorganized derivative of producer.py by Swapnil Jain, pinned at commit f2176bc1124821bf17eb63725bd366d7bdc020a3 from https://github.com/Swapnil-jain/integer-mult-kappa . The source is Apache-2.0 licensed. See the full original NOTICE: https://github.com/shea256/fourier-transform-below-nlogn/blob/master/verification/vendor/jain_round6/NOTICE . The network builds on contributions from Douglas Colkitt, icekylinx, eumemic, Aurel Prosz, and others as credited there.
+
+New here: replacement of the retained (E_0,...,E_22,A) basis with (E_0,...,E_23), re-pruning, full reconstructed local audit, and exact moment certificate. Developed with AI assistance. No independent review, priority claim, or modification of the original repositories is implied.
